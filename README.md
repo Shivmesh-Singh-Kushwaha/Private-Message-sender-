@@ -104,16 +104,6 @@
     </form>
 </body>
 </html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Response</title>
-</head>
-<body>
-    Your details have been recorded. Thank you for sumbit.
-</body>
-</html>
 © 2021 GitHub, Inc.
 Terms
 Privacy

@@ -1,37 +1,118 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello App</title>
+    <style>
+        #form{
+            border: 2px solid slategrey;
+            margin: auto;
+            height: 32vw;
+            width: 25vw;
+            background-color : silver;
+            
+            
+        }
+        #head{
+            width: 37%;
+            height: 8%;
+            margin: auto;
+            
+        }
+        #email{
+            margin: auto;
+            height: 46%;
+            width: 97%;
+        }
+        #comment{
+            margin: auto;
+            height: 87%;
+            width: 97.5%;
+        }
+        #emailid{
+            margin: auto;
+            height: 13%;
+            width: 96%;
+        }
+        #text{
+            margin: auto;
+            height: 28%;
+            width: 96%;
+        }
+        .button1,.button2{
+            margin: auto;
+            height: 12%;
+            width: 95%;
+        }
+        #send{
+            background-color:rgb(35, 187, 47);
+            height: 70%;
+            width: 100%;
+        }
+        #reset{
+            background-color:rgb(35, 187, 47);
+            height: 74%;
+            width: 100%;
+        }
+        #span{
+            margin: auto;
+            font-weight: bold;
+            width: 56%;
+        }
+        #anchor{
+            height: 8%;
+            width: 26%;
+            float: right;
+        }
+        #para
+        {
+            margin: auto;
+            width: 93%;
+        }
+        .line{
+            margin: auto;
+            background-color: darkslategrey;
+            width: 97%;
+        }
+    </style>
+</head>
+<body>
+    <form action="Createlink.html" id="form" method="post">
+        <h3 id="head">Invite to Board</h3>
+        <hr class="line"/>
+        <div id="emailid">
+          <label for="email">Email Id</label>:
+          <input type="email" id="email" name="Email-id" >
+        </div>
+        <div id="text">
+          <label for="comment">Comment</label>:
+          <textarea name="Comment" id="comment"  ></textarea>
+        </div><br>
+        <div class="button1">
+          <input type="reset" value="Reset" id="reset">
+        </div>
+        <div class="button2">  
+          <button id="send">Send Invitation</button>
+        </div>
+        <hr class="line"/>
+        <p><span id="span">   [-] Invite with link </span><a href="https://www.google.com/forms/about/" id="anchor">Create Link</a></p>
 
-You can use the [editor on GitHub](https://github.com/Shivmesh-Singh-Kushwaha/Private-Message-sender-/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+        <p id="para">Anyone with this link can join as board member</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shivmesh-Singh-Kushwaha/Private-Message-sender-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </form>
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
